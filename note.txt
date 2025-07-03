@@ -1,0 +1,25 @@
+what is hooks?
+hooks are a new feature addition in reactthat allow you to use React features without having to write class.
+eg. State of a component 
+-hooks dont waork inside classes
+
+Why Hooks?
+1)understand how this keyword works in javascript
+remember to bind event handlers in class components
+classes don't minify very well and make hot reloading very unreliable
+Hot reloading means updating your app without a full page refresh — super helpful during development.
+
+2) there is no particular way to reuse stateful component logic
+Hoc and render props patterns do address this problem
+makes the code harder to follow
+there is need a to share stateful logic in a better way
+
+3)create components for complex scnerio such as data fetching and subscribing to events Related code is not organized in one place
+eg. Data fetching - In componentDidMount and componentDidUpadate
+eg. Evevnt listenters - In componentDidMount and componentWillUnmount
+because of stateful logic - cann't break into smaller ones 
+
+inshort 1)avoid the whole confusion with 'this' keyword
+2) allow you to reuse stateful logic
+3) organize the component inside a component into reusable isolated units
+
