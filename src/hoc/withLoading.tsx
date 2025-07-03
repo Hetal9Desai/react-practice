@@ -65,6 +65,27 @@
 
 import Loading from "../components/Loading";
 
+// interface WithLoadingProps {
+//   loading: boolean;
+// }
+
+// function withLoading<P extends object>(
+//   InputComponent: React.FC<P>
+// ): React.FC<P & WithLoadingProps> {
+//   const OutPutComponent: React.FC<P & WithLoadingProps> = ({
+//     loading,
+//     ...props
+//   }) => {
+//     if (loading) {
+//       return <Loading />;
+//     }
+//     return <InputComponent {...(props as P)} />;
+//   };
+//   return OutPutComponent;
+// }
+
+// export default withLoading;
+
 interface WithLoadingProps {
   loading: boolean;
 }
